@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="index.html">Andi Fauzan Hediantoro</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/fauzan171" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/andi-fauzan-a449a7284/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Fauzan 👋</h2>
+        <p>I am a student at Cakrawala University, majoring in Information Technology Systems.
+          I have a deep interest in the world of technology, from building websites to exploring software development, server management, and digital innovation.
+          I am currently learning and practicing with technologies like HTML, CSS, JavaScript, Node.js, and React.js, while also expanding my knowledge in areas such as databases, APIs, and cloud computing.
+          I believe that technology can solve real-world problems, and I am passionate about becoming a part of that change by continuously learning and creating impactful digital solutions.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/WhatsApp Image 2025-04-26 at 14.01.13.jpeg" alt="john doe headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        As a student passionate about web development, I have been learning and practicing essential technologies to build modern websites and applications. I have a solid understanding of HTML and CSS, which I use to create clean and attractive web layouts.
+        I also use JavaScript to make websites interactive and dynamic. On the back-end side, I am learning and working with Node.js to develop server-side applications.
+        For building more advanced and efficient user interfaces, I am familiar with React.js, allowing me to create responsive and component-based web apps.
+        I am always eager to learn new technologies and improve my skills to become a better developer every day.
+        
+        
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/node-logo.webp" alt="node logo">
+          <span>Node.js</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/react-logo.webp" alt="react logo">
+          <span>React.js</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="/projectUts/images/WhatsApp Image 2025-04-26 at 15.44.55 copy.jpeg">
+          <p>Kevin Yudansha </p>
+          <p>Classmate</p>
+        </div>
+
+        <div class="text">
+          "He shows a strong passion for learning and growing in the field of technology. Even as a student, he demonstrates great initiative, creativity, and commitment to every project he works on. I'm confident he has a bright future ahead."
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          I appreciate you taking the time to view my portfolio. If youre interested in working together, have any questions, or would like to discuss potential opportunities, Id be thrilled to hear from you. Please feel free to reach out using the form beside this section, and Ill respond as soon as possible.
+
+          Whether youre looking for collaboration, feedback on a project, or just want to connect over shared interests, Im always open to new ideas and conversations. I believe in building strong, creative partnerships, and Id love to explore how we can create something amazing together.
+          
+          Dont hesitate to get in touch—I look forward to connecting with you!
+          
+          
+        </div>
+        <form action="https://formsubmit.co/andifauzan986@gmail.com" method="POST" onsubmit="handleSubmit(event)">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="message">Message</label>
+          <textarea id="message" name="message" cols="30" rows="10" required></textarea>
+          
+          <button type="submit">Send Message</button>
+        </form>
+  </main>
+</body>
+<script>
+  function handleSubmit(event) {
+    event.preventDefault();  // Mencegah form untuk submit otomatis
+    const form = event.target;
+
+    // Mengirim data form secara manual menggunakan fetch
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+    })
+    .then(response => {
+      if (response.ok) {
+        window.location.href = '/projectUts/thakyou.html';  // Redirect ke halaman Thank You jika berhasil
+      } else {
+        alert('There was an error sending your message. Please try again.');
+      }
+    })
+    .catch(error => {
+      alert('Error: ' + error.message);
+    });
+  }
+</script>
+</html>
